@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>TaskTie</title>
     <link rel="stylesheet" href="styles.css">
@@ -21,7 +22,7 @@
             </div>
         </div>
     </nav>
-    
+
     <!--page login-->
     <div id="login-container">
         <div class="tengah">
@@ -76,26 +77,26 @@
         <div class="container" id="container">
             <button id="button-logout" class="buttonlog">Logout</button>
             <h1>TaskTie</h1>
-                <form id="taskForm">
-                    <input type="text" id="taskInput" placeholder="Add a new task...">
-                    <select id="taskCategory">
-                        <option value="">Select Category</option>
-                        <option value="research">Research</option>
-                        <option value="writing">Writing</option>
-                        <option value="editing">Editing</option>
-                        <option value="scheduling">Scheduling</option>
-                        <option value="promotion">Promotion</option>
-                    </select>
+            <form id="taskForm">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <select id="taskCategory">
+                    <option value="">Select Category</option>
+                    <option value="research">Research</option>
+                    <option value="writing">Writing</option>
+                    <option value="editing">Editing</option>
+                    <option value="scheduling">Scheduling</option>
+                    <option value="promotion">Promotion</option>
+                </select>
 
-                    <input type="datetime-local" id="taskReminder">
-                    <select id="taskPriority">
-                        <option value="">Select Priority</option>
-                        <option value="low">Low</option>
-                        <option value="medium">Medium</option>
-                        <option value="high">High</option>
-                    </select>
-                    <button type="submit" id="AddTask">Add Task</button>
-                </form>
+                <input type="datetime-local" id="taskReminder">
+                <select id="taskPriority">
+                    <option value="">Select Priority</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <button type="submit" id="AddTask">Add Task</button>
+            </form>
 
             <label for="priority-filter">Priority Filter:</label>
             <select id="priority-filter">
@@ -118,5 +119,13 @@
         </div>
     </div>
 
+    <!--footer-->
+    <div id="copyright">
+        <div class="top">
+           &copy; 2023. <b>Team 1 - Bhinneka.</b> All Rights Reserved.
+        </div>
+    </div>
+
 </body>
+
 </html>
