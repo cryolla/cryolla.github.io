@@ -127,7 +127,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function renderTasks() {
     taskList.innerHTML = "";
-
+    tasks.sort(function(a,b){
+      return Number(a.completed) - Number(b.completed)
+    })
     for (let i = 0; i < tasks.length; i++) {
       const task = tasks[i];
       const taskItem = document.createElement("div");
